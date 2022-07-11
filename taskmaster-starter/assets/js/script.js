@@ -75,7 +75,7 @@ $("#task-form-modal .btn-primary").click(function () {
   }
 });
 
-//////////add event and call back function
+//////////add event and call back function///////////
 $(".list-group").on("click", "p", function () {
   var text = $(this).text().trim();
 
