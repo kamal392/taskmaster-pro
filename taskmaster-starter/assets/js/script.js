@@ -85,6 +85,8 @@ $(".list-group").on("click", "p", function () {
 });
 
 ////////////save editing task without any save button
+
+///////////
 $(".list-group").on("blur", "textarea", function () {
   //get the textarea's current value/text
 
